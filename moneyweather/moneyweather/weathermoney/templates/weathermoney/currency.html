@@ -1,0 +1,20 @@
+{% extends 'weathermoney/index.html' %}
+
+{% block content %}
+<table cellpadding="5">
+        <tbody>
+            <tr>
+                <td>DATE:</td>
+                <td>{{date}}</td>
+            </tr>
+            <tr>
+                <td>1 RUB</td>
+                <td>{{usd}} USD</td>
+            </tr>
+            <tr>
+                <td>1 RUB</td>
+                <td>{{usd}} EUR</td>
+            </tr>
+        </tbody>
+    </table>
+{% endblock %}
